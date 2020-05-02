@@ -1,0 +1,11 @@
+numpy
+pandas
+Pillow
+stegcracker
+stegoveritas
+frida-tools
+gmpy2
+Image
+# uncompile
+pwn==1.0
+pwntools==4.0.1
