@@ -8,7 +8,7 @@ apt update && apt full-upgrade --autoremove -y && apt autoclean
 
 # Install applications
 apt --no-install-recommends -yq install binwalk build-essential gdb foremost steghide pngcheck ffmpeg hxtools qpdf unrar-free \
-    imagemagick-6-common imagemagick-6.q16 imagemagick-6.q16hdri zbar-tools upx pypy lldb-9 jython
+    imagemagick-6-common imagemagick-6.q16 imagemagick-6.q16hdri zbar-tools upx pypy lldb-9 jython python3-pip checksec
 
 # Dependencies for python libraries
 apt --no-install-recommends -yq install libmpfr-dev libmpc-dev
